@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Branded Suits Wholesale | Premium Wholesale Dealer</title>
+
+<meta name="description" content="Premium branded suits wholesale dealer. All types of branded suits, wholesale rates and delivery all over Pakistan.">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#faf8f4;
+    color:#171717;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* NAVBAR */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#ffffff;
+    border-bottom:1px solid #eeeeee;
+}
+
+.navbar{
+    min-height:75px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#c49a55;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.nav-links a{
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#c49a55;
+}
+
+.whatsapp-btn{
+    background:#c49a55;
+    color:white !important;
+    padding:11px 18px;
+    border-radius:7px;
+}
+
+.menu{
+    display:none;
+    font-size:25px;
+    cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+    min-height:650px;
+    background:
+    linear-gradient(rgba(15,15,15,.72),rgba(15,15,15,.72)),
+    url("https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.hero-content{
+    max-width:750px;
+}
+
+.tag{
+    display:inline-block;
+    border:1px solid #c49a55;
+    color:#e1c27d;
+    padding:8px 15px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:clamp(42px,7vw,75px);
+    line-height:1.05;
+    margin-bottom:22px;
+}
+
+.hero h1 span{
+    color:#d4ae68;
+}
+
+.hero p{
+    font-size:19px;
+    color:#eeeeee;
+    max-width:650px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 25px;
+    background:#c49a55;
+    color:white;
+    border-radius:7px;
+    font-weight:bold;
+    margin-right:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.btn-outline{
+    background:transparent;
+    border:1px solid white;
+}
+
+/* GENERAL */
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#777;
+}
+
+/* FEATURES */
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.feature{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid #eeeeee;
+    transition:.3s;
+}
+
+.feature:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.feature h3{
+    margin-bottom:10px;
+}
+
+.feature p{
+    color:#777;
+}
+
+/* COLLECTION */
+
+.collection{
+    background:white;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.product{
+    background:#faf8f4;
+    border-radius:15px;
+    overflow:hidden;
+    border:1px solid #eeeeee;
+}
+
+.product-image{
+    height:300px;
+    background-size:cover;
+    background-position:center;
+}
+
+.product-info{
+    padding:22px;
+}
+
+.product-info h3{
+    margin-bottom:7px;
+}
+
+.product-info p{
+    color:#777;
+    margin-bottom:15px;
+}
+
+/* WHOLESALE */
+
+.wholesale{
+    background:#171717;
+    color:white;
+}
+
+.wholesale-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.wholesale h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.wholesale p{
+    color:#ccc;
+}
+
+.wholesale-list{
+    margin-top:25px;
+}
+
+.wholesale-list div{
+    margin:14px 0;
+    font-size:17px;
+}
+
+/* ABOUT */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about-image{
+    height:450px;
+    border-radius:20px;
+    background:
+    url("https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80")
+    center/cover;
+}
+
+.about-text h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+/* DELIVERY */
+
+.delivery{
+    background:#f1eadf;
+}
+
+.delivery-box{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.delivery-box h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.delivery-box p{
+    color:#666;
+}
+
+/* CONTACT */
+
+.contact{
+    background:white;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.contact-card{
+    background:#faf8f4;
+    padding:35px;
+    border-radius:15px;
+    border:1px solid #eee;
+}
+
+.contact-card h3{
+    margin-bottom:10px;
+}
+
+.contact-card p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.contact-link{
+    color:#a77c37;
+    font-weight:bold;
+}
+
+/* CTA */
+
+.cta{
+    background:linear-gradient(135deg,#151515,#332819);
+    color:white;
+    text-align:center;
+}
+
+.cta h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.cta p{
+    color:#ddd;
+    margin-bottom:25px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0d0f14;
+    color:white;
+    padding:45px 0 20px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+footer h3{
+    margin-bottom:15px;
+}
+
+footer p,
+footer a{
+    color:#999;
+    font-size:14px;
+}
+
+footer a{
+    display:block;
+    margin:7px 0;
+}
+
+.copyright{
+    text-align:center;
+    border-top:1px solid #222;
+    margin-top:35px;
+    padding-top:20px;
+    color:#777;
+    font-size:13px;
+}
+
+/* MOBILE */
+
+@media(max-width:850px){
+
+    .menu{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:75px;
+        left:0;
+        width:100%;
+        background:white;
+        padding:20px;
+        flex-direction:column;
+        border-top:1px solid #eee;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .hero{
+        min-height:600px;
+    }
+
+    .features,
+    .products{
+        grid-template-columns:1fr;
+    }
+
+    .wholesale-grid,
+    .about-grid,
+    .contact-grid,
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .section-title h2,
+    .wholesale h2,
+    .about-text h2,
+    .cta h2{
+        font-size:34px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<header>
+
+<div class="container navbar">
+
+<a href="#home" class="logo">
+BRANDED <span>SUITS</span>
+</a>
+
+<div class="menu" onclick="toggleMenu()">☰</div>
+
+<nav class="nav-links" id="navLinks">
+
+<a href="#home">Home</a>
+
+<a href="#collection">Collection</a>
+
+<a href="#wholesale">Wholesale</a>
+
+<a href="#about">About Us</a>
+
+<a href="#delivery">Delivery</a>
+
+<a href="#contact">Contact</a>
+
+<a
+class="whatsapp-btn"
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20I%20am%20interested%20in%20your%20branded%20suits%20wholesale%20collection."
+target="_blank">
+WhatsApp
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<div class="container">
+
+<div class="hero-content">
+
+<div class="tag">
+WHOLESALE DEALER • PAKISTAN
+</div>
+
+<h1>
+Premium <span>Branded Suits</span>
+at Wholesale Rates
+</h1>
+
+<p>
+All types of branded suits for shopkeepers,
+boutiques and resellers. Premium quality,
+competitive wholesale rates and delivery
+all over Pakistan.
+</p>
+
+<a href="#collection" class="btn">
+View Collection
+</a>
+
+<a
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20please%20send%20me%20your%20latest%20wholesale%20collection."
+target="_blank"
+class="btn btn-outline">
+Get Catalogue
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WHY US -->
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Why Choose Us?</h2>
+
+<p>
+Reliable wholesale supply for shopkeepers and resellers.
+</p>
+
+</div>
+
+<div class="features">
+
+<div class="feature">
+
+<div class="icon">💎</div>
+
+<h3>Premium Quality</h3>
+
+<p>
+Quality branded suits selected for retailers and boutiques.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="icon">💰</div>
+
+<h3>Wholesale Rates</h3>
+
+<p>
+Competitive wholesale prices for shopkeepers and resellers.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="icon">📦</div>
+
+<h3>All Pakistan Delivery</h3>
+
+<p>
+We provide delivery all over Pakistan.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- COLLECTION -->
+
+<section class="collection" id="collection">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Our Collection</h2>
+
+<p>
+All Types of Branded Suits
+</p>
+
+</div>
+
+
+<div class="products">
+
+
+<div class="product">
+
+<div
+class="product-image"
+style="background-image:url('https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=800&q=80')">
+</div>
+
+<div class="product-info">
+
+<h3>Lawn Collection</h3>
+
+<p>
+Fresh seasonal designs for retailers.
+</p>
+
+<a
+href="https://wa.me/923701684840?text=I%20am%20interested%20in%20your%20Lawn%20Collection."
+target="_blank"
+class="btn">
+Ask Price
+</a>
+
+</div>
+
+</div>
+
+
+<div class="product">
+
+<div
+class="product-image"
+style="background-image:url('https://images.unsplash.com/photo-1597983073493-88cd35cf93e0?auto=format&fit=crop&w=800&q=80')">
+</div>
+
+<div class="product-info">
+
+<h3>Embroidered Suits</h3>
+
+<p>
+Premium designs for boutiques and retailers.
+</p>
+
+<a
+href="https://wa.me/923701684840?text=I%20am%20interested%20in%20your%20Embroidered%20Suits."
+target="_blank"
+class="btn">
+Ask Price
+</a>
+
+</div>
+
+</div>
+
+
+<div class="product">
+
+<div
+class="product-image"
+style="background-image:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80')">
+</div>
+
+<div class="product-info">
+
+<h3>Premium Collection</h3>
+
+<p>
+Elegant branded styles and fresh arrivals.
+</p>
+
+<a
+href="https://wa.me/923701684840?text=I%20am%20interested%20in%20your%20Premium%20Collection."
+target="_blank"
+class="btn">
+Ask Price
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WHOLESALE -->
+
+<section class="wholesale" id="wholesale">
+
+<div class="container wholesale-grid">
+
+<div>
+
+<h2>
+Wholesale For Your Business
+</h2>
+
+<p>
+We provide branded suits at wholesale rates
+for shopkeepers, boutiques and online resellers.
+</p>
+
+<div class="wholesale-list">
+
+<div>✓ Shopkeepers Welcome</div>
+
+<div>✓ Boutique Owners Welcome</div>
+
+<div>✓ Online Resellers Welcome</div>
+
+<div>✓ Bulk Orders Available</div>
+
+<div>✓ Delivery All Over Pakistan</div>
+
+</div>
+
+</div>
+
+
+<div>
+
+<a
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20I%20want%20your%20wholesale%20catalogue%20and%20rates."
+target="_blank"
+class="btn">
+Request Wholesale Rates
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container about-grid">
+
+<div class="about-image">
+</div>
+
+
+<div class="about-text">
+
+<h2>
+About Our Business
+</h2>
+
+<p>
+We are a wholesale dealer dealing in
+all types of branded suits for shopkeepers,
+boutiques and resellers.
+</p>
+
+<p>
+Our focus is to provide quality products,
+competitive wholesale rates and reliable
+service to retailers across Pakistan.
+</p>
+
+<p>
+Whether you own a physical shop or sell
+online, you can contact us for our latest
+collection and wholesale rates.
+</p>
+
+<a
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20I%20want%20to%20know%20more%20about%20your%20wholesale business."
+target="_blank"
+class="btn">
+Contact Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- DELIVERY -->
+
+<section class="delivery" id="delivery">
+
+<div class="container">
+
+<div class="delivery-box">
+
+<h2>
+Delivery All Over Pakistan 🇵🇰
+</h2>
+
+<p>
+Order your wholesale collection from anywhere
+in Pakistan. Contact us on WhatsApp for order
+details, available stock and delivery information.
+</p>
+
+<br>
+
+<a
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20I%20want%20to%20know%20about%20delivery%20and%20wholesale%20orders."
+target="_blank"
+class="btn">
+Ask About Delivery
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Contact Us</h2>
+
+<p>
+Are you interested in stocking our collection?
+</p>
+
+</div>
+
+
+<div class="contact-grid">
+
+
+<div class="contact-card">
+
+<h3>📱 WhatsApp / Phone</h3>
+
+<p>
+0370 1684840
+</p>
+
+<a
+href="https://wa.me/923701684840"
+target="_blank"
+class="contact-link">
+Message on WhatsApp →
+</a>
+
+</div>
+
+
+<div class="contact-card">
+
+<h3>📧 Email</h3>
+
+<p>
+screenverse208@gmail.com
+</p>
+
+<a
+href="mailto:screenverse208@gmail.com"
+class="contact-link">
+Send Email →
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FINAL CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+Are You Interested?
+</h2>
+
+<p>
+Get our latest branded suits collection
+and wholesale rates today.
+</p>
+
+<a
+href="https://wa.me/923701684840?text=Assalam-o-Alaikum%2C%20I%20am%20interested%20in%20your%20branded%20suits%20wholesale%20collection."
+target="_blank"
+class="btn">
+WhatsApp Us Now
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container footer-grid">
+
+
+<div>
+
+<h3>
+BRANDED SUITS
+</h3>
+
+<p>
+Premium branded suits wholesale dealer.
+</p>
+
+<p>
+Shopkeepers • Boutiques • Resellers
+</p>
+
+</div>
+
+
+<div>
+
+<h3>
+Quick Links
+</h3>
+
+<a href="#home">Home</a>
+
+<a href="#collection">Collection</a>
+
+<a href="#wholesale">Wholesale</a>
+
+<a href="#about">About Us</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+
+<div>
+
+<h3>
+Contact
+</h3>
+
+<p>
+0370 1684840
+</p>
+
+<p>
+screenverse208@gmail.com
+</p>
+
+<p>
+Delivery All Over Pakistan 🇵🇰
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="container copyright">
+
+© 2026 Branded Suits Wholesale. All Rights Reserved.
+
+</div>
+
+</footer>
+
+
+<script>
+
+function toggleMenu(){
+
+    document
+    .getElementById("navLinks")
+    .classList
+    .toggle("active");
+
+}
+
+document
+.querySelectorAll(".nav-links a")
+.forEach(function(link){
+
+    link.addEventListener("click",function(){
+
+        document
+        .getElementById("navLinks")
+        .classList
+        .remove("active");
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
